@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="rocketClass.js"></script>
+    <script src="app.js"></script>
+    <title>Space</title>
+</head>
+<body>
+<section id="inputRockets">
+    <form id="first">
+        <label>First Rocket name:</label>
+        <input id="firstRocketName" type="text" required>
+        <label>Amount of fuel:</label>
+        <input id="firstRocketFuel" type="number" required>
+    </form>
+    <form id="second">
+        <label>Second Rocket name:</label>
+        <input id="secondRocketName" type="text" required>
+        <label>Amount of fuel:</label>
+        <input id="secondRocketFuel" type="number" required>
+    </form>
+    <form id="third">
+        <label>Third Rocket name:</label>
+        <input id="thirdRocketName" type="text" required>
+        <label>Amount of fuel:</label>
+        <input id="thirdRocketFuel" type="number" required>
+    </form>
+</section>
+<input id="submitButton" onclick="createRockets()" type="submit" value="Submit">
+<div id="result" style="display:none" style="color: aqua"></div>
+<div id="landingButtons" class="landButtons" style="display: none">
+    <button id="landFirst" class="inner" onclick="land(firstRocket.name)">Land first Rocket</button>
+    <button id="landSecond" class="inner" onclick="land(secondRocket.name)">Land second Rocket</button>
+    <button id="landThird" class="inner" onclick="land(thirdRocket.name)">Land third Rocket</button>
+</div>
+<button id="launchButton" class="buttons" onclick="launch()" style="display: none">Launch Rockets</button>
+
+</body>
+</html>
