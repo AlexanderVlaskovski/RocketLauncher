@@ -3,6 +3,15 @@ class Rocket {
         this.name = name;
         this.fuel = Number(fuel);
         this.land = false;
+        this.flag = false;
+    }
+
+    set flag(f) {
+        this._flag = f;
+    }
+
+    get flag() {
+        return this._flag;
     }
 
     set land(t) {
@@ -36,23 +45,21 @@ class Rocket {
         this.land = true;
     }
 
-
     takeOff() {
 
         let that = this;
 
-        return new Promise((resolve, reject) => {
-            let interval = setInterval(() => {
-                if (that.fuel === 0 || that.land === true) {
-                    resolve(`${that.fuel}`);
-                    clearInterval(interval);
-                }
-                else {
-                    that.fuel--;
-                }
-            }, 1000)
+        let interval = setInterval(() => {
+            if (that.fuel === 0 || that.land === true) {
+                that.flag = true;
+                clearInterval(interval);
 
-        });
+            }
+            else {
+                that.fuel--;
+                console.log(that.fuel);
+            }
+        }, 1000)
 
     }
 }

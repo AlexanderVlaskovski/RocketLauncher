@@ -106,4 +106,3 @@ function landedRockets() {
 
     return landed;
 }
-

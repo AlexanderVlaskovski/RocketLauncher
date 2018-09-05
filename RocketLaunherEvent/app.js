@@ -1,3 +1,4 @@
+
 let firstRocket;
 let secondRocket;
 let thirdRocket;
@@ -33,32 +34,59 @@ function createRockets() {
 
 function validateInput(firstRocketName, firstRocketFuel, seconRocketName, secondRocketFuel, thirdRocketName, thirdRocketFuel) {
     if (firstRocketName === '' || firstRocketFuel === '' || seconRocketName === '' || secondRocketFuel === '' || thirdRocketName === '' || thirdRocketFuel === '') {
-        alert('All fields must be filled!')
+        if(!alert('All fields must be filled!')){
+            location.reload(true);
+        }
     }
 
 }
 
-function launch() {
+function prepareRockets() {
+    firstRocket.takeOff();
+    secondRocket.takeOff();
+    thirdRocket.takeOff();
+}
 
+
+
+function launchRockets() {
+
+    $('#result').on('rocketLaunch', function (event) {
+        event.stopPropagation();
+        rocketLaunchHandler();
+    });
+
+    let currentInterval = setInterval(() => {
+        if (checkFlags()) {
+            clearInterval(currentInterval);
+            $('#result').trigger('rocketLaunch');
+        }
+    }, 1000);
+}
+
+function checkFlags() {
+    if (firstRocket.flag && secondRocket.flag && thirdRocket.flag) {
+        return true;
+    }
+}
+
+function launch() {
     $('#launchButton').fadeOut(1000);
     $('#landingButtons').fadeIn(500).on('click', function (event) {
         $(event.target).attr('disabled', 'disabled');
     });
-
-    Promise.all([
-        firstRocket.takeOff(),
-        secondRocket.takeOff(),
-        thirdRocket.takeOff()
-    ]).then(() => {
-
-        $('#landingButtons').fadeOut(1000);
-
-        let landed = landedRockets();
-        let crashed = rocketNames;
-        $('#result').html(`Landed rockets: ${landed.length === 0 ? "none" : landed.join(', ')}` + ' landed successfully!' + '<br/> ' + '<br/> ' +
-            `Crashed rockets: ${crashed.length === 0 ? "none" : crashed.join(', ')}` + ' out of fuel!').fadeIn(2000);
-    })
+    prepareRockets();
+    launchRockets();
 }
+
+function rocketLaunchHandler() {
+    $('#landingButtons').fadeOut(1000);
+    let landed = landedRockets();
+    let crashed = rocketNames;
+    $('#result').html(`Landed rockets: ${landed.length === 0 ? "none" : landed.join(', ')}` + ' landed successfully!' + '<br/> ' + '<br/> ' +
+        `Crashed rockets: ${crashed.length === 0 ? "none" : crashed.join(', ')}` + ' out of fuel!').fadeIn(2000);
+}
+
 
 function land(name) {
     for (let rocket of rockets) {

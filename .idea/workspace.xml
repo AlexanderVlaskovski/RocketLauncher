@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edaceb10-afda-49ff-aa15-0d40975a6412" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketClass.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rockets.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/images/space-animate-stage.png" beforeDir="false" afterPath="$PROJECT_DIR$/RocketLauncherPromise/styles/images/space-animate-stage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/RocketLauncherPromise/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketLauncherCallback/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/RocketLauncherCallback/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketLauncherCallback/rocketClass.js" beforeDir="false" afterPath="$PROJECT_DIR$/RocketLauncherCallback/rocketClass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketLauncherCallback/rockets.html" beforeDir="false" afterPath="$PROJECT_DIR$/RocketLauncherCallback/rockets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketLauncherCallback/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/RocketLauncherCallback/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketLauncherPromise/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/RocketLauncherPromise/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketLauncherPromise/rocketClass.js" beforeDir="false" afterPath="$PROJECT_DIR$/RocketLauncherPromise/rocketClass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketLauncherPromise/rockets.html" beforeDir="false" afterPath="$PROJECT_DIR$/RocketLauncherPromise/rockets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RocketLauncherPromise/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/RocketLauncherPromise/styles/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,47 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RocketLauncherPromise/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RocketLauncherPromise/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rocketClass.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RocketLauncherPromise/rocketClass.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="rockets.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RocketLauncherCallback/rockets.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-357" />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RocketLauncherCallback/app.js">
+        <entry file="file://$PROJECT_DIR$/RocketLaunherEvent/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rocketClass.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RocketLauncherCallback/rocketClass.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="234">
+              <caret line="113" column="1" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -71,15 +36,82 @@
       <file leaf-file-name="rockets.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RocketLauncherPromise/rockets.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="268">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rocketClass.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RocketLauncherPromise/rocketClass.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RocketLauncherPromise/app.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="86" selection-start-line="86" selection-end-line="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RocketLauncherPromise/styles/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RocketLauncherCallback/styles/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RocketLauncherCallback/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="108" selection-start-line="108" selection-end-line="108" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rockets.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RocketLauncherCallback/rockets.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rocketClass.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RocketLauncherCallback/rocketClass.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rockets.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RocketLaunherEvent/rockets.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -90,9 +122,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/RocketLauncherCallback/rocketClass.js" />
         <option value="$PROJECT_DIR$/RocketLauncherEvents/app.js" />
+        <option value="$PROJECT_DIR$/package-lock.json" />
+        <option value="$PROJECT_DIR$/RocketLaunherEvent/app.js" />
+        <option value="$PROJECT_DIR$/RocketLaunherEvent/rocketClass.js" />
+        <option value="$PROJECT_DIR$/RocketLaunherEvent/rockets.html" />
+        <option value="$PROJECT_DIR$/RocketLaunherEvent/styles/style.css" />
+        <option value="$PROJECT_DIR$/RocketLauncherPromise/rockets.html" />
+        <option value="$PROJECT_DIR$/RocketLauncherPromise/rocketClass.js" />
+        <option value="$PROJECT_DIR$/RocketLauncherPromise/app.js" />
+        <option value="$PROJECT_DIR$/RocketLauncherPromise/styles/style.css" />
+        <option value="$PROJECT_DIR$/RocketLauncherCallback/styles/style.css" />
         <option value="$PROJECT_DIR$/RocketLauncherCallback/app.js" />
+        <option value="$PROJECT_DIR$/RocketLauncherCallback/rockets.html" />
+        <option value="$PROJECT_DIR$/RocketLauncherCallback/rocketClass.js" />
       </list>
     </option>
   </component>
@@ -106,6 +149,7 @@
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/RocketLauncherCallback/package.json" />
       <path value="$PROJECT_DIR$/RocketLauncherPromise/package.json" />
+      <path value="$PROJECT_DIR$/RocketLaunherEvent/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -135,7 +179,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="termi&#9;ACTION&#9;ActivateTerminalToolWindow&#10;terminal&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="terminal&#9;ACTION&#9;ActivateTerminalToolWindow&#10;termi&#9;ACTION&#9;ActivateTerminalToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="9.8.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -145,7 +189,12 @@
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\softuni\JavaScript\Contests\RocketLauncher\RocketLauncher\RocketLaunherEvent" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\softuni\JavaScript\Contests\RocketLauncher\RocketLauncher" />
+      <recent name="D:\softuni\JavaScript\Contests\RocketLauncher\RocketLauncher\RocketLaunherEvent" />
       <recent name="D:\softuni\JavaScript\Contests\RocketLauncher\RocketLauncher\RocketLauncherEvents" />
       <recent name="D:\softuni\JavaScript\Contests\RocketLauncher\RocketLauncher\RocketLauncherPromise" />
       <recent name="D:\softuni\JavaScript\Contests\RocketLauncher\RocketLauncher\RocketLauncherCallback" />
@@ -174,12 +223,12 @@
       <option name="presentableId" value="Default" />
       <updated>1535712883883</updated>
       <workItem from="1535712886741" duration="970000" />
-      <workItem from="1535979056466" duration="15152000" />
+      <workItem from="1535979056466" duration="20909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16122000" />
+    <option name="totallyTimeSpent" value="21879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -209,6 +258,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/rocketClass.js">
@@ -256,30 +310,6 @@
     <entry file="file://$PROJECT_DIR$/RocketLauncherPromise/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/RocketLauncherPromise/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RocketLauncherPromise/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RocketLauncherPromise/rocketClass.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RocketLauncherPromise/rockets.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RocketLauncherPromise/app.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/RocketLauncherEvents/node_modules/jquery/src/css/var/swap.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -293,23 +323,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RocketLauncherCallback/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+    <entry file="file://$PROJECT_DIR$/RocketLauncherPromise/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RocketLauncherCallback/rocketClass.js">
+    <entry file="file://$PROJECT_DIR$/RocketLauncherPromise/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RocketLaunherEvent/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="251">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RocketLaunherEvent/rocketClass.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RocketLaunherEvent/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RocketLaunherEvent/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="113" column="1" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RocketLauncherPromise/rockets.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RocketLauncherPromise/rocketClass.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RocketLauncherPromise/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RocketLauncherPromise/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RocketLauncherCallback/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RocketLauncherCallback/rockets.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357" />
+        <state relative-caret-position="268">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RocketLauncherCallback/rocketClass.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RocketLaunherEvent/rockets.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RocketLauncherCallback/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
       </provider>
     </entry>
   </component>
